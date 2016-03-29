@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+   <LinearLayout
+	    android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" >
+
+       <TextView
+           android:id="@+id/visual"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:text="Loading.."
+           android:textAppearance="?android:attr/textAppearanceLarge" />
+
+       <LinearLayout
+               android:id="@+id/visual_stat"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+           <TextView
+               android:id="@+id/level"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Loading.."
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:layout_weight="1"/>
+           <TextView
+               android:id="@+id/distance"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Loading.."
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:gravity="right"
+               android:layout_weight="1"/>
+       </LinearLayout>
+
+       <LinearLayout
+               android:id="@+id/tab"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+           <Button
+                   android:id="@+id/tab_reso"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="RES"
+                   android:layout_weight="1"/>
+           <Button
+                   android:id="@+id/tab_mod"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MOD"
+                   android:layout_weight="1"/>
+       </LinearLayout>
+
+       <LinearLayout
+               android:id="@+id/group_reso"
+               android:orientation="vertical"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+
+           TextView
+                android:id="@+id/lb_slot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Portal Slots" />
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/slot1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+            </LinearLayout>
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ToggleButton
+                    android:id="@+id/slot5"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot6"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot7"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+                <ToggleButton
+                    android:id="@+id/slot8"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textOff="" />
+
+            </LinearLayout>
+
+           TextView
+                android:id="@+id/lb_resonators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resonators" />
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/reso1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L1" />
+
+                <Button
+                    android:id="@+id/reso2"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L2" />
+
+                <Button
+                    android:id="@+id/reso3"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L3" />
+
+            </LinearLayout>
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/reso4"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L4" />
+
+                <Button
+                    android:id="@+id/reso5"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L5" />
+
+                 <Button
+                    android:id="@+id/reso6"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L6" />
+
+            </LinearLayout>
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/reso7"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L7" />
+
+                 <Button
+                    android:id="@+id/reso8"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L8" />
+
+
+                 <Button
+                    android:id="@+id/del"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEL" />
+
+            </LinearLayout>
+       </LinearLayout>
+
+
+       <LinearLayout
+               android:id="@+id/group_mod"
+               android:orientation="vertical"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+
+           TextView
+                android:id="@+id/lb_mods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mods" />
+
+           <Spinner
+                android:id="@+id/mod1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"/>
+
+           <Spinner
+                   android:id="@+id/mod2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+
+           <Spinner
+                   android:id="@+id/mod3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"/>
+
+           <Spinner
+                   android:id="@+id/mod4"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"/>
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:paddingLeft="10dip">
+
+               <TextView
+                   android:textColor="@android:color/white"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="Link(s) :" />
+
+               <EditText
+                   android:textColor="@android:color/white"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:inputType="number"
+                   android:ems="10"
+                   android:id="@+id/links"
+                   android:layout_weight="1"
+                   android:text="0" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

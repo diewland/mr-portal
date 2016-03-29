@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mr-portal.iml" filepath="$PROJECT_DIR$/mr-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mrportal/mrportal.iml" filepath="$PROJECT_DIR$/mrportal/mrportal.iml" />
+    </modules>
+  </component>
+</project>

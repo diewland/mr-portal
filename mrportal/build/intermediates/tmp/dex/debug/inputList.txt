@@ -1,0 +1,2 @@
+D:\Dropbox\android\workspace\mr-portal\mrportal\build\intermediates\classes\debug
+D:\Dropbox\android\workspace\mr-portal\mrportal\build\intermediates\pre-dexed\debug\support-v4-19.1.0-26debfa5b69bfdb96bebd84db3ba92aefb7f9ddf.jar
