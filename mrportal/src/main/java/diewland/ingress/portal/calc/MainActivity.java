@@ -494,11 +494,11 @@ public class MainActivity extends Activity {
                 else if(dmg.equals("2.75")){ dmg = "3.0"; }
             }
             else if(v.equals("Turret [R]")){
-                hit_bonus += 30;
-                if(attk_freq.equals("0")){ attk_freq = "2"; }
-                else if(attk_freq.equals("2")){ attk_freq = "2.5"; }
-                else if(attk_freq.equals("2.5")){ attk_freq = "2.75"; }
-                else if(attk_freq.equals("2.75")){ attk_freq = "3.0"; }
+                hit_bonus += 20;
+                if(attk_freq.equals("0")){ attk_freq = "1.5"; }
+                else if(attk_freq.equals("1.5")){ attk_freq = "1.9"; }
+                else if(attk_freq.equals("1.9")){ attk_freq = "2.1"; }
+                else if(attk_freq.equals("2.1")){ attk_freq = "2.2"; }
             }
         }
    	    // calc multi-hack
